@@ -1,0 +1,56 @@
+.header{
+    border-bottom: 2px solid #b1191a;
+}
+.register{
+    margin-top:20px;
+    border:1px solid #ccc;
+    height: 500px;
+}
+.register>h3{
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 0 10px;
+    font-weight: 400;
+}
+.register>h3>span{
+    float: right;
+    margin-right: 10px;
+}
+.reg_form{
+    width: 600px;
+    height: 400px;
+    /* background-color: red; */
+    margin:40px auto 0;
+}
+.reg_form li{
+    margin: 20px 0;
+}
+.reg_form label{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+.reg_form input{
+    width: 218px;
+    height: 30px;
+    padding:0 10px;
+    border:1px solid #ccc;
+    margin-left: 10px;
+}
+.reg_form input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.sumbit_btn:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    color:#fff;
+}
+.error{
+    color:red;
+}

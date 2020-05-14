@@ -1,0 +1,265 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.w{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.color_red{
+    color:#c81623;
+}
+
+
+/* 顶部快捷导航栏部分 */
+.shortcut{
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+.shortcut li{
+    float: left;
+}
+/* 请登录左侧调整距离 */
+.fl_li{
+    margin-left: 5px;
+}
+/* 顶部快捷导航栏部分 右侧图标 */
+.fr .icon-ctrl3{
+    /* line-height:30px; */
+    font-size: 16px;
+}
+
+.spacer{
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
+
+/* 头部部分 */
+.header{
+    position: relative;
+    height: 105px;
+    /* background-color: pink; */
+}
+.logo{
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    top:25px;
+    left:0px
+}
+.logo a{
+    display: block;
+    width: 175px;
+    height: 56px;
+    background:url(../img/logo.png);
+    text-indent: -999px;
+    overflow: hidden;
+}
+.search{
+    position: absolute;
+    top:25px;
+    left: 348px;
+}
+.search_text{
+    width: 435px;
+    height: 32px;
+    border:2px solid #b1191a;
+    padding: 0 10px;
+    outline: none;
+}
+.search_btn{
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border: none;
+    color: #fff;
+    /* font-size: 16px; */
+}
+.hotwords{
+    position: absolute;
+    top:65px;
+    left: 348px;
+}
+.hotwords a{
+    padding: 0 10px;
+}
+.shopcar{
+    position: absolute;
+    top: 25px;
+    right:64px;
+    width: 138px;
+    height: 34px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    line-height: 34px;
+    text-align: center;
+}
+.shopcar_count{
+    position: absolute;
+    top: -3px;
+    left:100px;
+    background-color: red;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    border-radius: 7px ;
+    border-bottom-left-radius: 0;
+}
+
+/* nav区域 */
+.nav{
+    height: 45px;
+    border-bottom:2px solid #b1191a;
+}
+.dropdown{
+    width: 209px;
+    height: 45px;
+    line-height: 45px;
+}
+.dropdown .dt{
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dropdown:hover .dd{
+    display: block;
+}
+.dropdown .dd{
+    /* margin-top:2px; */
+    position: relative;
+    border-top:2px solid #b1191a ;
+    height: 466px;
+    background-color: #c81623;
+    display: none;
+}
+.dropdown .dd li{
+    line-height: 31px;
+    padding:0 10px;
+    margin-left: 1px;
+    transition: padding 0.5s;
+}
+.dropdown .dd li:hover{
+    background-color: #fff;
+    padding-left: 20px;
+    z-index: 999;
+}
+
+.dropdown .dd li:hover a{
+    color: red;
+}
+.dropdown .dd li a{
+    color: #fff;
+    /* font-size: 14px; */
+}
+.icon-ctrl{
+    color: #fff;
+    font-size: 16px;
+    float: right;
+    margin-top: 7px;
+}
+/* navitems已经浮动了,所以不会高度坍塌 */
+.navitems{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+.navitems li{
+    float: left;
+}
+.navitems li a{
+    float: left;
+    padding: 0 20px;
+}
+
+
+/* footer区域 */
+.footer{
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+/* footer_service区域 */
+.footer_service{
+    height: 79px;
+    border-bottom:1px solid #ccc;
+
+}
+.footer_service li{
+    float: left;
+    width: 240px;
+    height: 79px;
+}
+.footer_service_common{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons.png) no-repeat;
+    margin-left: 35px;
+}
+.footer_service_zheng{
+    /* float: left; */
+    /* width: 50px; */
+    /* height: 50px; */
+    background-position:-253px -3px;
+    /* margin-left: 35px; */
+}
+.footer_service_kuai{
+    background-position:-253px -54px;
+}
+.footer_service_bao{
+    background-position:-257px -106px;
+}
+.footer_service_zhang{
+    background-position:-258px -157px;
+}
+.footer_service_help{
+    background-position:-256px -208px;
+}
+.footer_service_title{
+    float: left;
+    /* margin-left:10px; */
+    margin: 5px 0 0 10px;
+}
+/* footer_help区域 */
+ .footer_help{
+     height: 187px;
+ }
+ .footer_help_item{
+     float: left;
+     width: 150px;
+     padding: 20px 0 0 50px;
+ }
+ .footer_help_item h5{
+     font-size: 16px;
+     margin-bottom: 10px;
+ }
+ .kehuduan{
+     margin: 5px 0 0 0;
+ }
+ .footer_copyright{
+     text-align: center;
+ }
+ .footer_copyright_top{
+     padding:10px 0;  
+ }
+ .footer_copyright_top a{
+     padding: 0 5px;
+     border-right: 1px solid #ccc;
+ }
+ .footer_copyright_top a:last-child{
+     border:none
+ }
+ .footer_copyright_bottom{
+    padding-top:10px;
+ }
+
